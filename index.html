@@ -1,0 +1,35 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="css/united.bootstrap.min.css"> -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>MultiMath</title>
+</head>
+<body>
+  <h1>/api/upload</h1>
+  <form id="frmUploader" enctype="multipart/form-data" action="api/Upload/" method="post">
+    <input type="file" name="imgUploader" multiple />
+    <input type="submit" name="submit" id="btnSubmit" value="Upload" /> </form>
+    <ul>
+      <li>GET /images   - list all upload images</li>
+      <li>GET /images/{id} - get one uploaded image</li>
+      <li>POST /profile - handle single image upload</li>
+      <li>POST /photos/upload - handle multiple images upload</li>
+  </ul>
+<!-- <h2>single image</h2>
+  <form id="frmUploader" enctype="multipart/form-data" action="/api/profile/" method="post">
+    <input type="file" name="imgUploader"  />
+    <input type="submit" name="submit" id="btnSubmit" value="Upload" /> </form>
+
+    <h3>
+      multiple photo upload
+    </h3>
+
+    <form id="frmUploader" enctype="multipart/form-data" action="/api/photos/upload" method="post">
+      <input type="file" name="imgUploader" multiple />
+      <input type="submit" name="submit" id="btnSubmit" value="Upload" /> </form> -->
+    <!-- add script tags here -->
+    <script src='bundle.js'></script>
+
+</body>
+</html>

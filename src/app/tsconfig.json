@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {
+    "removeComments": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "traceResolution": true,
+    "target": "es6",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "files": ["./app.ts"]
+}
